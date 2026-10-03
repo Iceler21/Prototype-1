@@ -417,9 +417,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Play
-
-'
+  m_text: Prototype 1
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -749,7 +747,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Quit
+  m_text: Prototype 3
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -953,8 +951,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -64, y: 114}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: -0.000015259, y: 147}
+  m_SizeDelta: {x: 491.3995, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1431461854
 MonoBehaviour:
@@ -976,7 +974,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Prototype 1
+  m_text: Select the Chapter
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: e73a58f6e2794ae7b1b7e50b7fb811b0, type: 2}
@@ -1042,7 +1040,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -123.57532, w: 0}
+  m_margin: {x: 0, y: 0, z: 0.15753171, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1091,7 +1089,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 19, y: -62.999996}
+  m_AnchoredPosition: {x: 0.000032425, y: -37}
   m_SizeDelta: {x: 308.496, y: 143.84299}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1573826609
@@ -1119,7 +1117,7 @@ GameObject:
   - component: {fileID: 1701848939}
   - component: {fileID: 1701848938}
   m_Layer: 5
-  m_Name: Start Button
+  m_Name: Chapter 1 Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1198,7 +1196,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Chapter Select
+          m_StringArgument: Prototype 1
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1701848939
@@ -1435,7 +1433,7 @@ GameObject:
   - component: {fileID: 2104702518}
   - component: {fileID: 2104702517}
   m_Layer: 5
-  m_Name: Quit Button
+  m_Name: Chapter 2 Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1507,14 +1505,14 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1573826609}
         m_TargetAssemblyTypeName: TitleButtonScripts, Assembly-CSharp
-        m_MethodName: QuitButton
-        m_Mode: 1
+        m_MethodName: StartButton
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Prototype 1
+          m_StringArgument: Prototype 3
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &2104702518
