@@ -183,7 +183,7 @@ PrefabInstance:
       addedObject: {fileID: 158405074}
     - targetCorrespondingSourceObject: {fileID: 100000, guid: 0703a1849c2c89b4db4568688faf0c5f, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 158405075}
+      addedObject: {fileID: 158405078}
   m_SourcePrefab: {fileID: 100100000, guid: 0703a1849c2c89b4db4568688faf0c5f, type: 3}
 --- !u!1 &158405072 stripped
 GameObject:
@@ -238,7 +238,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 122
   m_CollisionDetection: 0
---- !u!114 &158405075
+--- !u!114 &158405078
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -254,12 +254,12 @@ MonoBehaviour:
     m_Name: Jump
     m_Type: 0
     m_ExpectedControlType: 
-    m_Id: f730f919-7c91-4a5e-8b65-30daa80105bd
+    m_Id: bdf4fea6-f310-4377-91d2-af2b1045b2c8
     m_Processors: 
     m_Interactions: 
     m_SingletonActionBindings:
     - m_Name: 
-      m_Id: 78defbe4-e422-4474-a0b1-ea785b8074de
+      m_Id: 291ecd51-e87f-42ed-ad0a-9a88d4a2731a
       m_Path: <Keyboard>/space
       m_Interactions: 
       m_Processors: 
@@ -268,9 +268,10 @@ MonoBehaviour:
       m_Flags: 0
     m_Flags: 0
     m_Priority: 0
-  jumpForce: 10
-  gravityModifier: 1
+  jumpForce: 15
+  gravityModifier: 2.5
   isOnGround: 1
+  gameOver: 0
 --- !u!1 &170076733
 GameObject:
   m_ObjectHideFlags: 0
