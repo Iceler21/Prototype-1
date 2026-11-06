@@ -268,7 +268,7 @@ MonoBehaviour:
       m_Flags: 0
     m_Flags: 0
     m_Priority: 0
-  jumpForce: 15
+  jumpForce: 12
   gravityModifier: 2.5
   isOnGround: 1
   gameOver: 0
