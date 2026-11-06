@@ -11,6 +11,7 @@ public class Proto3PlayerController : MonoBehaviour
     public bool isOnGround = true;
     public bool gameOver = false;
     private Animator playerAnim;
+    public ParticleSystem explosionParticle;
 
     void Start()
     {
@@ -42,6 +43,7 @@ public class Proto3PlayerController : MonoBehaviour
             Debug.Log("Game Over!");
             playerAnim.SetBool("Death_b", true);
             playerAnim.SetInteger("DeathType_int", 1);
+            explosionParticle.Play();
         }
     }
 }
